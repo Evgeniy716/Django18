@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 
 def game_platform(request):
-    return render(request, template_name='fourth_task/platform.html')
+    return render(request,'fourth_task/platform.html')
 
 def game(request):
     games = {'games': ['Atomic Heart','Cyberpank','PayDay 2']}
